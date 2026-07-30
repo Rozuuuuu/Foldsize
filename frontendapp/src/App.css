@@ -1,0 +1,6 @@
+/* Remove all media query rules, we handle it with JS now */
+/* Keep only global styles */
+@media (max-width: 1024px) {
+  .right-sidebar { display: none; }
+}
+/* Fold Reveal Styles (from components) can stay */

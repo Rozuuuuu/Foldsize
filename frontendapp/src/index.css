@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+@theme {
+  /* ===== COLORS ===== */
+  --color-inverse-primary: #c4c6cd;
+  --color-on-primary-fixed-variant: #44474d;
+  --color-ink: #14171C;
+  --color-on-secondary-fixed-variant: #633f00;
+  --color-secondary-fixed-dim: #fdba5b;
+  --color-surface-dim: #dddad2;
+  --color-on-error: #ffffff;
+  --color-background: #fcf9f1;
+  --color-surface-variant: #e5e2da;
+  --color-primary-fixed-dim: #c4c6cd;
+  --color-inverse-surface: #31312b;
+  --color-ochre: #D89A3E;
+  --color-primary: #000000;
+  --color-on-surface: #1c1c17;
+  --color-on-primary-fixed: #191c21;
+  --color-inverse-on-surface: #f4f0e8;
+  --color-tertiary-container: #221a12;
+  --color-surface-bright: #fcf9f1;
+  --color-outline: #76777b;
+  --color-on-tertiary: #ffffff;
+  --color-secondary-container: #fdba5b;
+  --color-primary-container: #191c21;
+  --color-on-tertiary-container: #8e8276;
+  --color-error: #ba1a1a;
+  --color-on-secondary-fixed: #291800;
+  --color-tertiary: #000000;
+  --color-outline-variant: #c6c6cb;
+  --color-paper-grey: #C9C4B8;
+  --color-on-primary: #ffffff;
+  --color-primary-fixed: #e1e2e9;
+  --color-surface-container-lowest: #ffffff;
+  --color-secondary: #835500;
+  --color-surface-container-highest: #e5e2da;
+  --color-secondary-fixed: #ffddb4;
+  --color-on-tertiary-fixed: #221a12;
+  --color-on-primary-container: #81848a;
+  --color-on-error-container: #93000a;
+  --color-tertiary-fixed: #efe0d2;
+  --color-surface-container-high: #ebe8e0;
+  --color-surface-tint: #5c5e64;
+  --color-surface: #fcf9f1;
+  --color-on-secondary-container: #734a00;
+  --color-surface-container-low: #f6f3eb;
+  --color-surface-container: #f1eee6;
+  --color-on-secondary: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-tertiary-fixed-variant: #4f453b;
+  --color-bone: #EDEAE2;
+  --color-on-surface-variant: #45474b;
+  --color-on-background: #1c1c17;
+  --color-tertiary-fixed-dim: #d2c4b7;
+
+  /* ===== FONT FAMILIES ===== */
+  --font-family-body-base: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-family-data-mono: IBM Plex Mono, Menlo, Monaco, Consolas, monospace;
+  --font-family-display-lg: Newsreader, Georgia, serif;
+  --font-family-label-caps: IBM Plex Mono, Menlo, Monaco, Consolas, monospace;
+  --font-family-headline-md: Newsreader, Georgia, serif;
+  --font-family-headline-md-mobile: Newsreader, Georgia, serif;
+
+  /* ===== FONT SIZES ===== */
+  --font-size-body-base: 16px;
+  --font-size-data-mono: 14px;
+  --font-size-display-lg: 48px;
+  --font-size-label-caps: 12px;
+  --font-size-headline-md: 32px;
+  --font-size-headline-md-mobile: 24px;
+
+  /* ===== SPACING ===== */
+  --spacing-gutter: 24px;
+  --spacing-margin-mobile: 16px;
+  --spacing-unit: 4px;
+  --spacing-stack-gap: 12px;
+  --spacing-margin-desktop: 48px;
+
+  /* ===== BORDER RADIUS ===== */
+  --radius-DEFAULT: 0.125rem;
+  --radius-lg: 0.25rem;
+  --radius-xl: 0.5rem;
+  --radius-full: 0.75rem;
+}
+
+/* ===== GLOBAL STYLES ===== */
+body {
+  font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===== MATERIAL SYMBOLS STYLING ===== */
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+}
